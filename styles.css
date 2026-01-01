@@ -1,0 +1,120 @@
+body {
+    background-color: #FAF7F2; /* light grey background */
+    margin: 0;
+    padding: 0;
+}
+
+h1 { 
+    color: #000000; /* text color */ 
+    font-size: 40px; /* size */ 
+    text-align: center; /* center horizontally */ 
+    font-family: Arial, sans-serif; /* font */ 
+    text-decoration: none; 
+    padding: 10px 10px; 
+    margin: 0;
+    background-color: #C8A97E;
+}
+
+h2 { 
+    text-align: center;
+    font-family: 'Georgia', serif; 
+    color: #2B2B2B;
+    font-size: 30px;
+}
+
+h3 { 
+    text-align: center;
+    font-family: 'Georgia', serif;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+}
+
+ul, ol {
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.top-nav { 
+    background: #3E2F2F; 
+    padding: 12px; } 
+    
+.top-nav a { 
+    color: white; 
+    margin-right: 15px; 
+    text-decoration: none; }
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+}
+    
+.div1 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+}
+
+.div2 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 1;
+    grid-row-start: 4;
+}
+
+.div3 {
+    grid-column: span 3 / span 3;
+    grid-row: span 5 / span 5;
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+
+.div4 {
+    grid-column-start: 3;
+    border: 2px solid #333;     /* black border */
+    border-radius: 10px;        /* rounded corners */
+    padding: 20px;
+}
+ 
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* auto-fit for flexible centering */
+  gap: 10px;
+  padding: 20px;       /* center the gallery container itself */
+}
+
+.parent2 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+}
+
+.div5 {
+    grid-column: span 2 / span 2;
+    grid-column-start: 2;
+    border: 2px solid #333;     /* black border */
+    border-radius: 10px;        /* rounded corners */
+    padding: 20px;
+}
+
+.div6 {
+    grid-column: span 2 / span 2;
+    grid-column-start: 4;
+    border: 2px solid #333;     /* black border */
+    border-radius: 10px;        /* rounded corners */
+    padding: 20px;
+}
+
+a.go {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 18px;
+  padding: 3px 10px;
+  border-radius: 5px;
+  background-color: #C8A97E;
+  transition: all 0.3s;
+}

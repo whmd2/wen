@@ -109,6 +109,22 @@ ul, ol {
     padding: 20px;
 }
 
+.div7 {
+    grid-column: span 2 / span 2;
+    grid-column-start: 2;
+    border: 2px solid #333;     /* black border */
+    border-radius: 10px;        /* rounded corners */
+    padding: 20px;
+}
+
+.div8 {
+    grid-column: span 2 / span 2;
+    grid-column-start: 4;
+    border: 2px solid #333;     /* black border */
+    border-radius: 10px;        /* rounded corners */
+    padding: 20px;
+}
+
 a.go {
   color: rgb(0, 0, 0);
   text-decoration: none;

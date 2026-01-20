@@ -129,7 +129,7 @@ ul, ol {
 
 .div9 {
     grid-column: span 2 / span 2;
-    grid-column-start: 2;
+    grid-column-start: 4;
     grid-row-start: 3;
     border: 2px solid #333;     /* black border */
     border-radius: 10px;        /* rounded corners */
